@@ -6,3 +6,4 @@ MAINTAINER crt
 COPY *.jar /main.jar
  
 ENTRYPOINT ["java","-jar","/main.jar"]
+EXPOSE 80/tcp
